@@ -1,23 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Explore The World — Travel & Tours</title>
-
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- Header -->
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#">Wander<span>Way</span></a>
+      <a href="#" class="logo">Wander<span>Way</span></a>
 
-      <nav class="main-nav" aria-label="Primary Navigation">
+      <nav class="main-nav d-none d-md-block">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#destinations">Destinations</a></li>
@@ -26,180 +23,192 @@
         </ul>
       </nav>
 
-      <a class="cta header-cta" href="#packages">Book Now</a>
+      <a href="#" class="header-cta d-none d-md-inline-block">Book Now</a>
     </div>
   </header>
 
-  <!-- Hero / Banner -->
-  <section id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <h1>Explore The World With Us</h1>
-        <p class="subheading">Handcrafted tours ✦ Local guides ✦ Unforgettable memories — choose your next long escape.</p>
-      <a class="btn btn-primary" href="#destinations">Discover More</a>
-    </div>
-  </section>
+  <!-- HERO -->
+ <section class="hero">
+<div class="hero-overlay"></div>
 
-  <!-- Destinations / Cards -->
-  <section id="destinations" class="section container">
-    <h2 class="section-title">Top Destinations</h2>
-    <p class="section-sub">Handpicked places to inspire your next long journey.</p>
+
+<div class="hero-content container">
+<h1>Explore The World With Us</h1>
+<p class="subheading">Handcrafted tours ✦ Local guides ✦ Unforgettable memories — choose your next long escape.</p>
+<a href="#packages" class="btn-primary-custom">Discover More</a>
+</div>
+</section>
+
+  <!-- TOP DESTINATIONS -->
+ <section class="destinations-section" id="destinations">
+  <div class="container">
+
+    <div class="section-heading">
+      <h2>Top Destinations</h2>
+      <p>Explore the world’s most beautiful places curated just for you</p>
+    </div>
 
     <div class="cards-grid">
-     
-      <article class="card">
+
+      <!-- CARD 1 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest1.jpeg" alt="Mountain landscape">
+          <img src="assets/images/dest1.jpeg" alt="Destination">
         </div>
         <div class="card-body">
           <h3>Majestic Highlands</h3>
           <p>Walk through misty peaks, rustic trails and experience alpine village life for 7 days.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
+      </div>
 
-     
-      <article class="card">
+      <!-- CARD 2 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest2.jpeg" alt="Tropical beach">
+          <img src="assets/images/dest2.jpeg" alt="Destination">
         </div>
         <div class="card-body">
           <h3>Azure Beaches</h3>
           <p>Relax on golden sands, snorkel coral gardens and refresh with seaside sunsets.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
+      </div>
 
-      
-      <article class="card">
+      <!-- CARD 3 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest3.jpeg" alt="Historic city">
+          <img src="assets/images/dest3.jpeg" alt="Destination">
         </div>
         <div class="card-body">
           <h3>Old City Trails</h3>
           <p>Discover centuries of culture — bustling bazaars, hidden cafés, and architectural wonders.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
+      </div>
 
-      
-      <article class="card">
+      <!-- CARD 4 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest4.jpeg" alt="Desert dunes">
+          <img src="assets/images/dest4.jpeg" alt="Destination">
         </div>
         <div class="card-body">
-          <h3>Desert Escapade</h3>
+         <h3>Desert Escapade</h3>
           <p>Drive across sweeping dunes, star-camp nights and thrilling 4x4 adventures.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
+      </div>
 
-      
-      <article class="card">
+      <!-- CARD 5 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest5.jpeg" alt="Rainforest">
+          <img src="assets/images/dest5.jpeg" alt="Destination">
         </div>
         <div class="card-body">
           <h3>Green Rainforest</h3>
           <p>Wildlife spotting, canopy walks, and serene river cruises through untouched nature.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
+      </div>
 
-      
-      <article class="card">
+      <!-- CARD 6 -->
+      <div class="card">
         <div class="card-image">
-          <img src="assets/images/dest6.jpeg" alt="Northern lights">
+          <img src="assets/images/dest6.jpeg" alt="Destination">
         </div>
         <div class="card-body">
-          <h3>Polar Lights</h3>
+         <h3>Polar Lights</h3>
           <p>Chase the aurora across icy plains with cozy stays and local storytelling nights.</p>
-          <a class="btn btn-outline" href="#packages">View Details</a>
+          <a href="#" class="btn-outline-custom">View Details</a>
         </div>
-      </article>
-    </div>
-  </section>
+      </div>
 
- 
-        
-    <!-- Packages  -->
-<section id="packages" class="section container">
-  <h2 class="section-title">Our Tour Packages</h2>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PACKAGES (Horizontal Scroll) -->
+<!-- Packages Section with Horizontal Scroll -->
+<section id="packages" class="section">
+  <div class="container">
+    <h2 class="section-title">Our Tour Packages</h2>
   <p class="section-sub">Handpicked long-tour packages designed for peace, adventure and unforgettable memories.</p>
 
-  <div class="packages-scroll">
+    <!-- Horizontal Scroll Wrapper -->
+    <div class="packages-scroll">
 
-    
-    <article class="card pkg-card">
-      <div class="card-image">
-        <img src="assets/images/pkg1.jpeg" alt="Adventure Tour Package">
-      </div>
-      <div class="card-body">
-        <h3>7-Day Mountain Adventure</h3>
+      <!-- Package Card 1 -->
+      <div class="pkg-card card">
+        <div class="card-image">
+          <img src="assets/images/pkg1.jpeg" alt="Package 1" />
+        </div>
+        <div class="card-body">
+          <h3>7-Day Mountain Adventure</h3>
         <p>Stay among peaks, trek hidden trails and enjoy campfire nights under the stars.</p>
-        <a class="btn btn-outline" href="#">View Package</a>
+          <a href="#" class="btn-outline">View Package</a>
+        </div>
       </div>
-    </article>
 
-    
-    <article class="card pkg-card">
-      <div class="card-image">
-        <img src="assets/images/pkg2.jpeg" alt="Beach Package">
-      </div>
-      <div class="card-body">
-        <h3>5-Day Island Escape</h3>
+      <!-- Package Card 2 -->
+      <div class="pkg-card card">
+        <div class="card-image">
+          <img src="assets/images/pkg2.jpeg" alt="Package 2" />
+        </div>
+        <div class="card-body">
+          <h3>5-Day Island Escape</h3>
         <p>Beach retreat with snorkeling, seafood dinners and sunset cruises.</p>
-        <a class="btn btn-outline" href="#">View Package</a>
+          <a href="#" class="btn-outline">View Package</a>
+        </div>
       </div>
-    </article>
 
-    
-    <article class="card pkg-card">
-      <div class="card-image">
-        <img src="assets/images/pkg3.jpeg" alt="City Package">
-      </div>
-      <div class="card-body">
-        <h3>4-Day City Explorer</h3>
+      <!-- Package Card 3 -->
+      <div class="pkg-card card">
+        <div class="card-image">
+          <img src="assets/images/pkg3.jpeg" alt="Package 3" />
+        </div>
+        <div class="card-body">
+           <h3>4-Day City Explorer</h3>
         <p>Explore museums, cafés, heritage streets and vibrant night markets.</p>
-        <a class="btn btn-outline" href="#">View Package</a>
+          <a href="#" class="btn-outline">View Package</a>
+        </div>
       </div>
-    </article>
 
-    
-    <article class="card pkg-card">
-      <div class="card-image">
-        <img src="assets/images/pkg4.jpeg" alt="Safari Package">
-      </div>
-      <div class="card-body">
-        <h3>6-Day Wildlife Safari</h3>
+      <!-- Package Card 4 -->
+      <div class="pkg-card card">
+        <div class="card-image">
+          <img src="assets/images/pkg4.jpeg" alt="Package 4" />
+        </div>
+        <div class="card-body">
+          <h3>6-Day Wildlife Safari</h3>
         <p>Experience safaris, nature walks and wildlife photography sessions.</p>
-        <a class="btn btn-outline" href="#">View Package</a>
+          <a href="#" class="btn-outline">View Package</a>
+        </div>
       </div>
-    </article>
 
+    </div>
   </div>
 </section>
 
 
 
-  <!-- Contact -->
- 
-   <section id="contact" class="contact">
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
     <h2>Contact Us</h2>
-    <p>Email us directly at 
+     <p>Email us directly at 
       <a href="wanderway.com">WanderWay.com</a>
       or send a quick message below.
     </p>
-    <form>
+     <form>
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" rows="4" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
+      <button class="contact-btn">Send Message</button>
+
     </form>
   </section>
 
-
-  <!-- footer -->
+  <!-- FOOTER -->
+  
   <footer id="contact" class="site-footer">
     <div class="container footer-grid">
       <div class="footer-col">
